@@ -1,0 +1,87 @@
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder
+$ git init
+Initialized empty Git repository in C:/Users/DBMS/Desktop/ML/New folder/.git/
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ touch f2
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git add .
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git commit -m d1
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DBMS@DESKTOP-G8FG4VO.(none)')
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ ^C
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ ^[[200~ git config --global user.email "you@example.com"
+bash: $'\E[200~': command not found
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$  git config --global user.email "pratikshabhat28@gmail.com"
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$  git config --global user.name "pratiksha2828"
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ touch f4
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git commit -m
+error: switch `m' requires a value
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git commit -m 3
+[master (root-commit) 5292a5d] 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 f2
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ git log
+commit 5292a5db3a3f08e70dd9bdc945164451a4dfecbe (HEAD -> master)
+Author: pratiksha2828 <pratikshabhat28@gmail.com>
+Date:   Thu Feb 27 08:42:45 2025 +0530
+
+    3
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$ ^C
+
+DBMS@DESKTOP-G8FG4VO MINGW64 ~/Desktop/ML/New folder (master)
+$
